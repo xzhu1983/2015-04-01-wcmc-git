@@ -1,2 +1,5 @@
 def f_to_k (temp):
-	return ((temp - 32) * (5.0/9.0)) +273.15
+	return ((temp - 32) * (5.0/9.0) +273.15)
+
+def k_to_c(temp):
+	return (temp - 273.15)
